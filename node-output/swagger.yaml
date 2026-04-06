@@ -80,6 +80,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
+      deprecated: true
       security:
       - petstore_auth:
         - write:pets
@@ -123,6 +124,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
+      deprecated: true
       security:
       - petstore_auth:
         - write:pets
@@ -170,6 +172,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
+      deprecated: true
       security:
       - petstore_auth:
         - write:pets
